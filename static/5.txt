@@ -1,0 +1,52 @@
+前情回顾
+
+1. tcp套接字收发细节
+
+   * 缓冲区
+   * 粘包
+
+2. udp服务
+   服务端： socket->bind->recvfrom/sendto->close
+   客户端： socket->recvfrom/sendto->close
+
+3. 套接字属性： fileno() setsockopt()
+
+4. struct模块
+
+   Struct()  pack()  unpack()
+
+
+进程理论总结
+　　
+1.　为什么用进程
+　　
+   * 使用单一内核执行程序执行速度慢
+   * 顺序执行程序一旦一个地方阻塞后面全都无法执行
+
+2. 在哪里用进程
+　　
+　　* 如果你想快速的完成几个事件
+　　* 多个事情你不想相互有干扰
+
+练习1　：　求１０００００以内质数之和，统计所用的时间
+
+作业：
+
+ 1. 总结下网络部分内容
+ 2. 理解fork的运行流程
+ 3. 下面的函数要执行10次,希望在4秒之内执行完
+
+def fun():
+   print('xxx')
+   time.sleep(3)
+   print("aaaaaa")
+
+
+
+
+
+
+
+
+
+
