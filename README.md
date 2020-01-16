@@ -4,5 +4,4 @@
 ![](./bjb.jpeg)
 ![](./my.jpeg)
 ![](./bc.jpeg)
-![](./kl.jpg)
 ![](./pyy.jpeg)
